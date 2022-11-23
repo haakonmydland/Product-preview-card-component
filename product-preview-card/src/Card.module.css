@@ -1,0 +1,97 @@
+.CardContainer {
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 350px;
+  background-color: var(--White);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 250px 1fr;
+}
+
+.Card {
+  background-color: var(--White);
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 100%;
+  gap: 1em;
+}
+.Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.category {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 300;
+  color: var(--Dark-grayish-blue);
+}
+
+.Title {
+  font-family: "Fraunces", serif;
+  font-size: 2.4em;
+  text-transform: capitalize;
+  color: var(--Very-dark-blue);
+}
+
+.Body {
+  color: var(--Dark-grayish-blue);
+}
+
+.PriceContainer {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.Price {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 2.4em;
+  color: var(--Dark-cyan);
+}
+
+.OriginalPrice {
+  margin: 0;
+  color: var(--Dark-grayish-blue);
+  font-weight: 300;
+  font-size: 1em;
+  position: relative;
+}
+.OriginalPrice::after {
+  position: absolute;
+  content: "";
+  background-color: var(--Dark-grayish-blue);
+  top: 50%;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+  /* outline: solid 1px var(--White); */
+}
+.Button {
+  background-color: var(--Dark-cyan);
+  padding: 1rem;
+  color: var(--White);
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  cursor: pointer;
+  transition: background-color 150ms ease;
+}
+.Button:hover {
+  background-color: var(--Very-Dark-cyan);
+}
+
+@media (min-width: 600px) {
+  .CardContainer {
+    max-width: 600px;
+    background-color: var(--White);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
