@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io](https://www.frontendmentor.io/solutions/product-preview-card-component-react-typescript-eWeBND0pyR)
+- Live Site URL: [https://product-preview-card-component-2vs.pages.dev/](https://product-preview-card-component-2vs.pages.dev/)
 
 ## My process
 
