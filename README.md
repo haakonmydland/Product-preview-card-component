@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-fot this project I focused on creating a reusable component. This means that all the text in the component is changeable on the top level on the component. I also included standard texts, so that if nothing is input it does not break the component.
+for this project I focused on creating a reusable component. This means that all the text in the component is changeable on the top level on the component. I also included standard texts, so that if nothing is input it does not break the component.
 
 The component is added to the DOM like this
 
